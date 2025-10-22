@@ -1,0 +1,68 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #000 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #ff914d !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.btn-dark {
+  background-color: #000;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #ff914d;
+  color: #000;
+}
+
+#carouselAdidas,
+#carouselNovedades {
+  max-height: 400px; 
+  overflow: hidden;
+}
+
+#carouselAdidas img,
+#carouselNovedades img {
+  height: 400px;       
+  object-fit: cover;  
+  object-position: center;
+}
+
